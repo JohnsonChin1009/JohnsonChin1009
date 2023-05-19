@@ -16,7 +16,7 @@ My name is Johnson, I'm currently a Diploma in ICT(Software Engineerin) student 
 Here are some stats for you to see
 <details open>
   <summary>:zap: Stats</summary>
-  <img alt="LowJunyi2001's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=JohnsonChin1009&show_icons=true&disable_animations=true">
+  <img alt="Johnson's GitHub stats" src="https://github-readme-stats.vercel.app/api?username={JohnsonChin1009}&theme=blue-green">
 </details>
 
 ## 💻 Tech Stack
