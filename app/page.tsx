@@ -12,7 +12,7 @@ import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 
 import {
   AiFillGithub,
@@ -22,12 +22,7 @@ import {
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
-  const resumeSectionRef = useRef(null);
-
-  const scrollToResume = () => {
-    resumeSectionRef.current.scrollIntoView({ behavior: 'smooth' });
-  };
-
+  
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -43,7 +38,6 @@ export default function Home() {
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl" />
               </li>
-              <li><button className="bg-gradient-to-r from-orange-400 to-orange-600 text-white px-4 py-2 rounded-md ml-8" onClick={scrollToResume}>Portfolio</button></li>
             </ul>
           </nav>
           <div className="text-center p-10 py-10  dark:text-white">
@@ -76,7 +70,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <Image className="" alt='design-icon' className="mx-auto" src={design} height={100} />
+              <Image alt='design-icon' className="mx-auto" src={design} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2">Frameworks</h3>
               <p>
                 During my time doing projects, I've picked up some frameworks that enabled me
@@ -119,7 +113,7 @@ export default function Home() {
 
         <section>
           <div id="portfolio" className="dark:text-white">
-            <h3 className="text-3xl py-1" ref={resumeSectionRef}>Portfolio</h3>
+            <h3 className="text-3xl py-1">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
               Below are some projects, assignments, fun-ideas I've created since I stepped into the tech world!
             </p>
