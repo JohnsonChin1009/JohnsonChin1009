@@ -1,4 +1,4 @@
--### Good Day!!
+Good Day!!
 
 My name is Johnson, I'm currently a Diploma in ICT(Software Engineerin) student at [Asia Pacific University](https://www.apu.edu.my/).
 
