@@ -1,9 +1,10 @@
 Good Day!!
 
-My name is Johnson, I'm currently a Diploma in ICT(Software Engineerin) student at [Asia Pacific University](https://www.apu.edu.my/).
+My name is Johnson, I'm currently a Diploma in ICT(Software Engineering) student at [Asia Pacific University](https://www.apu.edu.my/).
 
-Check me out at [link](https://react-tailwind-portfolio-jade.vercel.app/).
+Check me out at my [personal website](https://react-tailwind-portfolio-jade.vercel.app/).
 
+Link to my [humancard](https://humancard.me/Johnson)
 ---
 
 ### :man_technologist: About Me :
